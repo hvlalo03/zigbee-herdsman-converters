@@ -4960,3 +4960,11 @@ export const definitions: DefinitionWithExtend[] = [
         extend: [philips.m.light({colorTemp: {range: [153, 447]}, color: {modes: ["xy", "hs"], enhancedHue: true}})],
     },
 ];
+{
+    zigbeeModel: ['929003812501'],
+    model: '929003812501',
+    vendor: 'Signify Netherlands B.V.',
+    description: 'Automatically generated definition',
+    extend: [philips.m.light({"colorTemp":{"range":[153,454]}})],
+};
+
